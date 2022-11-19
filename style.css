@@ -1,0 +1,118 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+
+    background-image: url(../img/bbbbb.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.tela-login{
+background-color:rgba(0, 0, 0, 0.9);
+position: absolute;
+top:50% ;
+left: 50%;
+transform: translate(-50%, -50%);
+padding: 70px;
+border-radius: 10px;
+color: white;
+
+}
+input{
+padding: 15px;
+border: none;
+outline: none;
+font-size: 15px;
+}
+
+audio{
+padding-top: 30px;
+width: 6%;
+position: fixed;
+    bottom: 0;
+}
+
+button{
+background-color: dodgerblue;
+border: none;
+padding: 15px;
+width: 100%;
+border-radius: 10px;
+color: white;
+font-size: 15px;
+cursor: pointer;
+}
+
+button:hover{
+background-color: deepskyblue;
+
+}
+
+#menu-h{
+    background-color:rgb(37, 43, 43);
+}
+
+    #menu-h ul{
+    max-width: 800px;
+   list-style: none; 
+   padding: 0%;
+background-color:rgb(37, 43, 43);
+}
+
+#menu-h li{
+    display:inline ;
+
+}
+
+#menu-h li a{
+    color:rgb(252, 252, 252);
+    outline: none;
+
+    display: inline-block;  
+    padding: 22px;
+    text-decoration: none;
+    transition: background .3s;
+
+}
+
+#menu-h li a:hover{
+    background-color:rgb(39, 68, 163);
+    
+    
+
+}
+
+#menu-h li:first-child a{
+    float: right;
+    background-color:rgb(39, 68, 163);
+    
+    
+
+}
+.mapagoogle{
+    position: fixed;
+    bottom: 0;
+    padding: 15px;
+
+}
+
+.logo150{
+
+    position: relative;
+    top:100%;
+    left:
+    right: 100%;
+
+ 
+
+
+
+
+
+
+}
